@@ -4,7 +4,7 @@ const downloadBtn = document.getElementById('download-btn');
 const companyInfoDiv = document.getElementById('company-info');
 
 const RAPIDAPI_KEY = '160f31f5famsh2e3d240681a058cp1b5e22jsncd4a7d3d613c'; 
-const RAPIDAPI_HOST = 'real-time-glassdoor-data.p.rapidapi.com'; // For the API
+const RAPIDAPI_HOST = 'trustpilot14.p.rapidapi.com'; // For the API
 
 let currentData = []; // Store data for CSV
 
