@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+#company-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#company-info h2 {
+    text-align: center;
+}
+
+.pros, .cons {
+    margin: 10px 0;
+}
+
+.pros ul, .cons ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.error {
+    color: red;
+}
+
+#download-btn {
+    margin-top: 10px;
+    background-color: #28a745;
+}
+
+#download-btn:hover {
+    background-color: #218838;
+}
